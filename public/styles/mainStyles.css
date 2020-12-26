@@ -1,0 +1,49 @@
+body {
+  background-color: #f3eac2;
+  color: #ec524b;
+}
+
+img {
+  position: absolute;
+  transform: rotate(345deg);
+  width: 600px;
+  height: 610.93px;
+  left: 1100px;
+  top: 294px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 25px;
+}
+
+a {
+   color: inherit; /* takes the color of parent */
+   text-decoration: none; /*removes a tag underline*/
+}
+
+.navbar {
+  font-family: 'Aleo', serif;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  left: 1300px;
+}
+
+.title {
+  font-family: 'Aleo', serif;
+  position: absolute;
+  width: 716px;
+  height: 234px;
+  left: 300px;
+  top: 275px;
+  font-size: 48px;
+}
+
+.description {
+  font-size: 40px;
+}

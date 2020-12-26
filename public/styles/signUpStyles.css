@@ -1,0 +1,72 @@
+body {
+  background-color: #f3eac2;
+  color: #ec524b;
+}
+
+img {
+  position: absolute;
+  width: 420px;
+  height: 598.41px;
+  left: 100px;
+  top: 170px;
+}
+
+p {
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.imageText {
+  font-family: 'Itim', cursive;
+  position: absolute;
+  width: 400px;
+  height: 142px;
+  left: 620px;
+  top: 250px;
+  font-size: 40px;
+}
+.signUpBox {
+  background-color: #F5B461;
+  position: absolute;
+  width: 550px;
+  height: 700px;
+  left: 1200px;
+  top: 120px;
+}
+
+.textBoxes {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 440px;
+  text-align: left;
+}
+
+.btn {
+  position: absolute;
+  left: 30px;
+  top: 390px;
+  background-color: #9AD3BC;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  color: #F5B461;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 350px;
+  height: 85px;
+  border-radius: 20px;
+  border: none;
+  text-shadow: 0px 2px 3px rgba(0,0,0,0.5);
+}
+
+
+/* box-shadow: 0px 4px 4px 0px #000000 25% inset; */
