@@ -67,8 +67,9 @@ app.post("/login", function(req, res){
   for (var i=0; i<userDetails.length; i++) {
     if(userDetails[i].email.toLowerCase() === req.body.email.toLowerCase()){
       if(userDetails[i].password === password){
-        console.log(postStorage[i].content)
+        console.log(postStorage[i].content) // get the content from db
         res.redirect("/postPage") //res.sendFile(__dirname + "/postPage"); <-- pushes the page but doesn't change the end point.
+        //push content with .replace to postPage here
         return
       }else {
         return res.json("email or password invalid")// if user or password doesn't exist in db
